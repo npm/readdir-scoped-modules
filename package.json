@@ -9,6 +9,7 @@
   "dependencies": {
     "debuglog": "^1.0.1",
     "dezalgo": "^1.0.0",
+    "graceful-fs": "^3.0.4",
     "once": "^1.3.0"
   },
   "devDependencies": {
