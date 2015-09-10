@@ -1,6 +1,6 @@
 {
   "name": "readdir-scoped-modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
   "main": "readdir.js",
   "directories": {
