@@ -12,3 +12,12 @@ test ('basic', function (t) {
     t.end()
   })
 })
+
+test ('sync', function (t) {
+  // should not get {a,b}/{x,y}, but SHOULD get @org/ and @scope children
+  var expect = [ '@org/x', '@org/y', '@scope/x', '@scope/y', 'a', 'b' ]
+
+  var kids = readdir.sync (__dirname + '/fixtures')
+  t.same(kids, expect)
+  t.end()
+})
