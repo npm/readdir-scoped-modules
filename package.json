@@ -1,6 +1,6 @@
 {
   "name": "readdir-scoped-modules",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
   "main": "readdir.js",
   "directories": {
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/npm/readdir-scoped-modules/issues"
   },
-  "homepage": "https://github.com/npm/readdir-scoped-modules"
+  "homepage": "https://github.com/npm/readdir-scoped-modules",
+  "files": [
+    "readdir.js"
+  ]
 }
