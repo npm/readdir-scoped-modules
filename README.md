@@ -8,10 +8,10 @@ Used by npm.
 ## USAGE
 
 ```javascript
-var readdir = require('readdir-scoped-modules')
+const readdir = require('readdir-scoped-modules')
+const entries = await readdir('node_modules')
+// entries will be something like: ['a', '@org/foo', '@org/bar']
 
-readdir('node_modules', function (er, entries) {
-  // entries will be something like
-  // ['a', '@org/foo', '@org/bar']
-})
+// or synchronously
+const entries = readdir.sync('node_modules')
 ```
