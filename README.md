@@ -1,5 +1,7 @@
 # readdir-scoped-modules
 
+> **Warning**: This repo has been archived in favor of the `readdirScoped` method on [`@npmcli/fs`](https://github.com/npm/fs)
+
 Like `fs.readdir` but handling `@org/module` dirs as if they were
 a single entry.
 
